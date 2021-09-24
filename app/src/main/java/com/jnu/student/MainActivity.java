@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_linerlayout);
 
         Button changeButton1 = findViewById(R.id.button_change_text);
         Button changeButton2 = findViewById(R.id.button_change_text2);
